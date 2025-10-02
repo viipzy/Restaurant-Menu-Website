@@ -54,7 +54,7 @@ body {
 .hero {
   text-align: center;
   padding: 4rem 2rem;
-  background: url('your-hero-image.jpg') center/cover no-repeat;
+  background: url('./cache/home.webp') center/cover no-repeat;
   color: $white;
 
   h1 {
@@ -83,7 +83,7 @@ body {
 }
 
 
-/* order page */
+// order page 
   .btn-order {
     display: inline-block;
     padding: 0.4rem 1.5rem;
