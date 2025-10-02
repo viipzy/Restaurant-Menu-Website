@@ -1,0 +1,117 @@
+
+$primary:  rgb(250, 82, 60);
+$primary-dark: #a42b06;
+$white: #ffffff;
+$black: #333333;
+$light-bg: #fdfdfd;
+  
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: $light-bg;
+  color: $black;
+}
+
+//  Navbar
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: $primary;
+  padding: 1rem 2rem;
+
+  .logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: $white;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+
+    a {
+      color: $white;
+      text-decoration: none;
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+//  Hero Section
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: url('your-hero-image.jpg') center/cover no-repeat;
+  color: $white;
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: $primary;
+    color: $white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background: $primary-dark;
+    }
+  }
+}
+
+
+/* order page */
+  .btn-order {
+    display: inline-block;
+    padding: 0.4rem 1.5rem;
+    background: $primary;
+    color: $white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20rem 45% 0 45%;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background: $primary-dark;}}
+
+// Footer
+footer { 
+  background: rgba($black, 0.6);
+  color: $white; 
+  text-align: center;
+  position: fixed;
+  padding: 1.5rem;
+  margin-top: 48vh;
+  width: 100%;
+;
+
+  a {
+    color: $primary;
+    text-decoration: none;
+  }
+}
