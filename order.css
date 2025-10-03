@@ -1,3 +1,12 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f8f8f8;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 /* Order Section */
 .order-section {
   flex: 1;

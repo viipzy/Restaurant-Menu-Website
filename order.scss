@@ -3,6 +3,14 @@ $bg-color: #f8f8f8;
 $text-color: #333;
 $border-radius: 10px;
 
+body {
+  font-family: "Poppins", sans-serif;
+  background: $bg-color;
+  color: $text-color;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
 
 /* Order Section */

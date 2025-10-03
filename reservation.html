@@ -3,16 +3,18 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Reservation</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reservation.css">
+         <link rel="icon" type="image/x-icon" href="./cache/logo.png">
     </head>
     <body>
         <!--  Navbar -->
-  <header>
+    <header>
     <nav class="navbar">
-      <div class="logo">Fast’s Kitchen 🍴</div>
+      <div class="logo"> <h2>Fast’s Kitchen</h2> <img src="./cache/logo.png" class="logo" alt=""></div>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="menu.html">Menu</a></li>
@@ -23,8 +25,43 @@
     </nav>
   </header>
 
-  <!-- main section -->
-   <h2>reservation form</h2>
+
+  <!-- Main section -->
+  <section class="reservation-section">
+    <h2>Reserve a Table</h2>
+
+    <form id="reservation-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required/>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" required/>
+      </div>
+
+      <div class="form-group">
+        <label for="date">Date:</label>
+        <input type="date" id="date" required/>
+      </div>
+
+      <div class="form-group">
+        <label for="time">Time:</label>
+        <input type="time" id="time" required/>
+      </div>
+
+      <div class="form-group">
+        <label for="guests">Guests:</label>
+        <input type="number" id="guests" min="1" required/>
+      </div>
+
+      <button type="submit" class="reserve-btn">Reserve Now</button>
+    </form>
+
+    <p class="reservation-message">Reservation booked!</p>
+  </section>
+
 
 
         <!--  Footer -->
