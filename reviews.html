@@ -3,16 +3,19 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Review</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reviews.css">
+         <link rel="icon" type="image/x-icon" href="./cache/logo.png">
     </head>
     <body>
         <!--  Navbar -->
+
   <header>
     <nav class="navbar">
-      <div class="logo">Fast’s Kitchen 🍴</div>
+      <div class="logo"> <h2>Fast’s Kitchen</h2> <img src="./cache/logo.png" class="logo" alt=""></div>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="menu.html">Menu</a></li>
@@ -22,23 +25,49 @@
       </ul>
     </nav>
   </header>
-  <!-- main section -->
-   <h2>Customer Reviews</h2>
-   <div class="reviews">
-       <div class="review">
-           <p>"The food was amazing! Will definitely come back."</p>
-           <span>- Ismail Kehinde</span>
-       </div>
-       <div class="review">
-           <p>"Great atmosphere and friendly staff."</p>
-           <span>- Olaoye Victor </span>
-       </div>
-       <div class="review">
-           <p>"Best dining experience I've had in a while."</p>
-           <span>- Victor Mark</span>
-       </div>
-   </div>   
-        <!--  Footer -->
+
+  
+    <!-- Review Form -->
+  <section class="review-section">
+    <h2>Leave a Review ⭐</h2>
+
+    <form id="review-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required/>
+      </div>
+
+      <div class="form-group">
+        <label for="review">Review:</label>
+        <textarea id="review" required></textarea>
+      </div>
+
+      <div class="form-group rating-group">
+        <label>Rating:</label>
+        <div class="stars">
+          <span data-value="1">★</span>
+          <span data-value="2">★</span>
+          <span data-value="3">★</span>
+          <span data-value="4">★</span>
+          <span data-value="5">★</span>
+        </div>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit Review</button>
+    </form>
+  </section>
+
+  <!-- Display Reviews -->
+  <section class="user-reviews">
+    <h3>User Reviews:</h3>
+    <ul id="reviews-list">
+      <li><strong>John:</strong> "Amazing pizza!" <span class="stars">★★★★★</span></li>
+      <li><strong>Aisha:</strong> "Great service!" <span class="stars">★★★★☆</span></li>
+    </ul>
+  </section>
+
+
+  <!--  Footer -->
   <footer>
     <p> 123 Food Street, Flavor City</p>
     <p>☎ +234-7046-3683-61 | ✉ awosanyavictor9@gmail.com</p>
