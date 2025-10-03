@@ -12,8 +12,8 @@ $border-radius: 10px;
 
 body {
   font-family: "Poppins", sans-serif;
-  background: $bg-color;
-  color: $text-color;
+  background: $light-bg;
+  color: $black;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -24,7 +24,7 @@ body {
   flex: 1;
   max-width: 500px;
   margin: 2rem auto;
-  background: white;
+  background: $light-bg;
   padding: 2rem;
   border-radius: $border-radius;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
@@ -57,15 +57,15 @@ body {
 
         &:focus {
           outline: none;
-          border-color: $primary-color;
+          border-color: $primary;
         }
       }
     }
 
     .reserve-btn {
       margin-top: 0.5rem;
-      background: $primary-color;
-      color: white;
+      background: $primary;
+      color: $white;
       border: none;
       padding: 0.7rem;
       border-radius: $border-radius;
@@ -74,7 +74,7 @@ body {
       transition: background 0.3s;
 
       &:hover {
-        background: darken($primary-color, 10%);
+        background: darken($primary, 10%);
       }
     }
   }
@@ -82,7 +82,7 @@ body {
   .reservation-message {
     display: none;
     margin-top: 1rem;
-    background: #e9ffe6;
+    background: $light-bg;
     color: #2e7d32;
     padding: 0.8rem;
     border-radius: $border-radius;

@@ -1,24 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  background: #f8f8f8;
-  color: #333;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-/* Review Section */
 .review-section {
   flex: 1;
   max-width: 500px;
   margin: 2rem auto;
-  background: white;
+  background: #fdfdfd;
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
@@ -49,7 +33,7 @@ body {
 }
 .review-section form .form-group input:focus, .review-section form .form-group textarea:focus {
   outline: none;
-  border-color: #d35400;
+  border-color: rgb(250, 82, 60);
 }
 .review-section form .form-group textarea {
   resize: none;
@@ -69,8 +53,8 @@ body {
 }
 .review-section form .submit-btn {
   margin-top: 0.5rem;
-  background: #d35400;
-  color: white;
+  background: rgb(250, 82, 60);
+  color: #ffffff;
   border: none;
   padding: 0.7rem;
   border-radius: 10px;
@@ -79,7 +63,7 @@ body {
   transition: background 0.3s;
 }
 .review-section form .submit-btn:hover {
-  background: rgb(160, 63.6966824645, 0);
+  background: rgb(248.725, 37.885, 10.275);
 }
 
 /* User Reviews */

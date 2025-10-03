@@ -6,8 +6,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #f8f8f8;
-  color: #333;
+  background: #fdfdfd;
+  color: #333333;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -18,7 +18,7 @@ body {
   flex: 1;
   max-width: 500px;
   margin: 2rem auto;
-  background: white;
+  background: #fdfdfd;
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
@@ -49,12 +49,12 @@ body {
 }
 .reservation-section form .form-group input:focus {
   outline: none;
-  border-color: #d35400;
+  border-color: rgb(250, 82, 60);
 }
 .reservation-section form .reserve-btn {
   margin-top: 0.5rem;
-  background: #d35400;
-  color: white;
+  background: rgb(250, 82, 60);
+  color: #ffffff;
   border: none;
   padding: 0.7rem;
   border-radius: 10px;
@@ -63,12 +63,12 @@ body {
   transition: background 0.3s;
 }
 .reservation-section form .reserve-btn:hover {
-  background: rgb(160, 63.6966824645, 0);
+  background: rgb(248.725, 37.885, 10.275);
 }
 .reservation-section .reservation-message {
   display: none;
   margin-top: 1rem;
-  background: #e9ffe6;
+  background: #fdfdfd;
   color: #2e7d32;
   padding: 0.8rem;
   border-radius: 10px;

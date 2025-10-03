@@ -2,23 +2,15 @@ $primary:  rgb(250, 82, 60);
 $white: #ffffff;
 $black: #333333;
 $light-bg: #fdfdfd;
+$border-radius: 10px;
+$gold:gold
   
-
-body {
-  font-family: "Poppins", sans-serif;
-  background: $bg-color;
-  color: $text-color;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
 /* Review Section */
-.review-section {
+;.review-section {
   flex: 1;
   max-width: 500px;
   margin: 2rem auto;
-  background: white;
+  background: $light-bg;
   padding: 2rem;
   border-radius: $border-radius;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
@@ -70,11 +62,11 @@ body {
           transition: color 0.3s;
 
           &.selected {
-            color: gold;
+            color:$gold;
           }
 
           &:hover {
-            color: gold;
+            color: $gold;
           }
         }
       }
@@ -83,7 +75,7 @@ body {
     .submit-btn {
       margin-top: 0.5rem;
       background: $primary;
-      color: white;
+      color: $white;
       border: none;
       padding: 0.7rem;
       border-radius: $border-radius;
@@ -118,7 +110,7 @@ body {
       margin-bottom: 0.5rem;
 
       .stars {
-        color: gold;
+        color: $gold;
         font-size: 1rem;
         margin-left: 5px;
       }

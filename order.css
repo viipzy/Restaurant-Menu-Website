@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: #f8f8f8;
-  color: #333;
+  background: #fdfdfd;
+  color: #333333;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -12,7 +12,7 @@ body {
   flex: 1;
   max-width: 600px;
   margin: 2rem auto;
-  background: white;
+  background: #fdfdfd;
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
@@ -41,7 +41,7 @@ body {
 }
 .order-section .order-list .order-item .item-price {
   margin: 0 1rem;
-  color: #d35400;
+  color: rgb(250, 82, 60);
   font-weight: 600;
 }
 .order-section .order-list .order-item .remove-btn {
@@ -67,12 +67,12 @@ body {
   margin-right: 0.5rem;
 }
 .order-section .order-summary .total-amount {
-  color: #d35400;
+  color: rgb(250, 82, 60);
 }
 .order-section .confirm-btn {
   width: 100%;
-  background: #d35400;
-  color: white;
+  background: rgb(250, 82, 60);
+  color: #ffffff;
   border: none;
   padding: 0.8rem;
   border-radius: 10px;
@@ -81,7 +81,7 @@ body {
   transition: background 0.3s;
 }
 .order-section .confirm-btn:hover {
-  background: rgb(160, 63.6966824645, 0);
+  background: rgb(248.725, 37.885, 10.275);
 }
 .order-section .order-message {
   margin-top: 1rem;

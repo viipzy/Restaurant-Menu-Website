@@ -1,13 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #f8f8f8;
-  color: #333;
+  background-color: #fdfdfd;
+  color: #333333;
 }
 
 /* Filter Bar */
@@ -16,20 +10,20 @@ body {
   justify-content: center;
   padding: 1rem;
   gap: 1rem;
-  background: #fff;
+  background: #fdfdfd;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 .filter-bar .filter-btn {
   background: none;
-  border: 1px solid #d35400;
-  color: #d35400;
+  border: 1px solid rgb(250, 82, 60);
+  color: rgb(250, 82, 60);
   padding: 0.4rem 1rem;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .filter-bar .filter-btn.active, .filter-bar .filter-btn:hover {
-  background: #d35400;
+  background: rgb(250, 82, 60);
   color: #fff;
 }
 
@@ -67,12 +61,12 @@ body {
   font-size: 1.1rem;
 }
 .menu .menu-item .info .price {
-  color: #d35400;
+  color: rgb(250, 82, 60);
   font-weight: bold;
 }
 .menu .menu-item .add-btn {
   margin-top: 1rem;
-  background: #d35400;
+  background: rgb(250, 82, 60);
   color: white;
   border: none;
   padding: 0.5rem 1.2rem;
@@ -81,10 +75,8 @@ body {
   transition: background 0.3s;
 }
 .menu .menu-item .add-btn:hover {
-  background: rgb(160, 63.6966824645, 0);
+  background: rgb(248.725, 37.885, 10.275);
 }
-
-
 
 /* Responsive */
 @media (max-width: 600px) {

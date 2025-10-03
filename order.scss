@@ -1,4 +1,4 @@
-$primary:  rgb(250, 82, 60);
+$primary: rgb(250, 82, 60);
 $white: #ffffff;
 $black: #333333;
 $light-bg: #fdfdfd;
@@ -6,8 +6,8 @@ $border-radius: 10px;
 
 body {
   font-family: "Poppins", sans-serif;
-  background: $bg-color;
-  color: $text-color;
+  background: $light-bg;
+  color: $black;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -17,9 +17,9 @@ body {
 /* Order Section */
 .order-section {
   flex: 1;
-  max-width: 600px;
+  max-width:600px ;
   margin: 2rem auto;
-  background: white;
+  background: $light-bg;
   padding: 2rem;
   border-radius: $border-radius;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
@@ -51,7 +51,7 @@ body {
 
       .item-price {
         margin: 0 1rem;
-        color: $primary-color;
+        color: $primary;
         font-weight: 600;
       }
 
@@ -83,14 +83,14 @@ body {
     }
 
     .total-amount {
-      color: $primary-color;
+      color: $primary;
     }
   }
 
   .confirm-btn {
     width: 100%;
-    background: $primary-color;
-    color: white;
+    background: $primary;
+    color: $white;
     border: none;
     padding: 0.8rem;
     border-radius: $border-radius;
@@ -99,7 +99,7 @@ body {
     transition: background 0.3s;
 
     &:hover {
-      background: darken($primary-color, 10%);
+      background: darken($primary, 10%);
     }
   }
 
