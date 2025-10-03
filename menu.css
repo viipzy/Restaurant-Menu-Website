@@ -1,23 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
 /* Filter Bar */
 .filter-bar {
   display: flex;
   justify-content: center;
   padding: 1rem;
   gap: 1rem;
-  background: #fdfdfd;
+  background: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 .filter-bar .filter-btn {
   background: none;
-  border: 1px solid rgb(250, 82, 60);
-  color: rgb(250, 82, 60);
+  border: 1px solid #d35400;
+  color: #d35400;
   padding: 0.4rem 1rem;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .filter-bar .filter-btn.active, .filter-bar .filter-btn:hover {
-  background: rgb(250, 82, 60);
+  background: #d35400;
   color: #fff;
 }
 
@@ -55,12 +67,12 @@
   font-size: 1.1rem;
 }
 .menu .menu-item .info .price {
-  color: rgb(250, 82, 60);
+  color: #d35400;
   font-weight: bold;
 }
 .menu .menu-item .add-btn {
   margin-top: 1rem;
-  background: rgb(250, 82, 60);
+  background: #d35400;
   color: white;
   border: none;
   padding: 0.5rem 1.2rem;
@@ -69,8 +81,10 @@
   transition: background 0.3s;
 }
 .menu .menu-item .add-btn:hover {
-  background: rgb(248.725, 37.885, 10.275);
+  background: rgb(160, 63.6966824645, 0);
 }
+
+
 
 /* Responsive */
 @media (max-width: 600px) {

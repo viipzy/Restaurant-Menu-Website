@@ -12,12 +12,14 @@ $light-bg: #fdfdfd;
   box-sizing: border-box;
 }
 
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background: $light-bg;
   color: $black;
 }
+
 
 //  Navbar
 .navbar {
@@ -127,3 +129,5 @@ footer {
     text-decoration: none;
   }
 }
+
+
