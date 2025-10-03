@@ -4,6 +4,16 @@ $black: #333333;
 $light-bg: #fdfdfd;
 $border-radius: 10px;
 
+body {
+  font-family: "Poppins", sans-serif;
+  background: $bg-color;
+  color: $text-color;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
 /* Filter Bar */
 .filter-bar {
   display: flex;
