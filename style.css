@@ -45,8 +45,9 @@ body {
   text-align: center;
   padding: 4rem 2rem;
   background: url("./cache/index.jpg") center/cover no-repeat;
-  height: 90vh;
+  height: 95vh;
   color: #ffffff;
+  margin: 0;
   justify-content: center;
   align-items: center;
 }
@@ -54,7 +55,7 @@ body {
   position: relative;
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 .hero p {
   font-size: 1.2rem;
