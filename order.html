@@ -3,17 +3,18 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Confirm Order</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="order.css">
          <link rel="icon" type="image/x-icon" href="./cache/logo.png">
     </head>
     <body>
-        <!--  Navbar -->
+   <!--  Navbar -->
   <header>
     <nav class="navbar">
-      <div class="logo">Fast’s Kitchen 🍴</div>
+      <div class="logo"> <h2>Fast’s Kitchen</h2> <img src="./cache/logo.png" class="logo" alt=""></div>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="menu.html">Menu</a></li>
@@ -24,9 +25,33 @@
     </nav>
   </header>
 
-  <!-- MAIN SECTION -->
-    <h2>Order Page</h2>
-    <a href="order-confirmed.html" class="btn-order">Pay</a>
+   <!-- Order Section -->
+  <section class="order-section">
+    <h2>Your Order 🛒</h2>
+    <div class="order-list">
+      <div class="order-item">
+        <span class="item-name">Pizza Margherita</span>
+        <span class="item-price">$12</span>
+        <button class="remove-btn">Remove</button>
+      </div>
+
+      <div class="order-item">
+        <span class="item-name">Fresh Juice</span>
+        <span class="item-price">$5</span>
+        <button class="remove-btn">Remove</button>
+      </div>
+    </div>
+
+    <div class="order-summary">
+      <span class="total-text">Total:</span>
+      <span class="total-amount">$17</span>
+    </div>
+
+    <button class="confirm-btn">Confirm Order</button>
+
+    <p class="order-message">Thanks! Your order is being prepared 🍲</p>
+  </section>
+
         <!--  Footer -->
   <footer>
     <p> 123 Food Street, Flavor City</p>

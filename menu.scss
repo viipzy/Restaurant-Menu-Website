@@ -1,9 +1,8 @@
 $primary:  rgb(250, 82, 60);
-$primary-dark: #a42b06;
 $white: #ffffff;
 $black: #333333;
 $light-bg: #fdfdfd;
-
+$border-radius: 10px;
 
 /* Filter Bar */
 .filter-bar {
@@ -11,13 +10,13 @@ $light-bg: #fdfdfd;
   justify-content: center;
   padding: 1rem;
   gap: 1rem;
-  background: #fff;
+  background: $light-bg;
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 
   .filter-btn {
     background: none;
-    border: 1px solid $primary-color;
-    color: $primary-color;
+    border: 1px solid $primary;
+    color: $primary;
     padding: 0.4rem 1rem;
     border-radius: $border-radius;
     cursor: pointer;
@@ -25,7 +24,7 @@ $light-bg: #fdfdfd;
 
     &.active,
     &:hover {
-      background: $primary-color;
+      background: $primary;
       color: #fff;
     }
   }
@@ -68,14 +67,14 @@ $light-bg: #fdfdfd;
       }
 
       .price {
-        color: $primary-color;
+        color: $primary;
         font-weight: bold;
       }
     }
 
     .add-btn {
       margin-top: 1rem;
-      background: $primary-color;
+      background: $primary;
       color: white;
       border: none;
       padding: 0.5rem 1.2rem;
@@ -84,7 +83,7 @@ $light-bg: #fdfdfd;
       transition: background 0.3s;
 
       &:hover {
-        background: darken($primary-color, 10%);
+        background: darken($primary, 10%);
       }
     }
   }
